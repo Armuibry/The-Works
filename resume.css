@@ -1,0 +1,246 @@
+.main-top {
+    display: flex;
+    margin-top: 2rem;
+    padding-right: 2rem;
+}
+
+.container-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+
+.resume {
+    background-color: rgb(248, 123, 114);
+}
+
+.left {
+    display: flex;
+    border-bottom: 3px solid black;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 100px;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.profile img {
+    height: 2rem;
+    object-fit: contain;
+}
+
+.pinfo h1 {
+    font-size: 36px;
+}
+
+.headinfo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    border-left: 3px solid black;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile img {
+        height: 1.5rem;
+        object-fit: contain;
+    }
+
+    .profile {
+        height: 40px;
+        width: 40px;
+        margin-bottom: 0px;
+    }
+
+    .icon span {
+        font-size: 14px;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+    }
+
+    .pinfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+
+    .headinfo {
+        border-left: none;
+    }
+
+    .work-head {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-mid {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 2rem;
+        padding-top: 2rem;
+    }
+
+    .skill-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+
+    .work-details {
+        text-align: start;
+    }
+
+    .skill-rating p {
+        padding-left: 5rem;
+    }
+
+    .skill-name {
+        padding-left: 5rem;
+    }
+
+    .top-icon {
+        padding-top: 2rem;
+    }
+
+    .left-intrest {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: s;
+    }
+
+}
+
+/* Profile section CSS completed here */
+
+.work {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px solid black;
+}
+
+.work-details {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+
+.work-info p {
+    margin: 0px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 576px) {
+    .work-year {
+        font-size: 12px;
+        padding-right: 0.5rem;
+    }
+
+    .work-info p {
+        font-size: 1rem;
+    }
+
+    .work-info span {
+        font-size: 0.75rem;
+    }
+
+    .skill-rating p {
+        font-size: 0.75rem;
+    }
+
+    .skill-rating p {
+        padding-left: 0px;
+    }
+
+    .skill-name {
+        padding-left: 0px;
+    }
+
+    .interest span {
+        font-size: 0.75rem;
+    }
+}
+
+/* Work section completed here */
+
+.work-head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.work-head .work-details {
+    margin-bottom: 0px;
+}
+
+.main-mid {
+    display: flex;
+    padding-right: 2rem;
+}
+
+.skill-info {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+/* Skills and awards completed here */
+
+.interest {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-intrest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.bg-skill {
+    background-color: blue;
+    border: none;
+}
+
+.left-intrest {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+}
